@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>element</id>
+    <title>Element (Install)</title>
+    <version>1.7.4</version>
+    <authors>Element</authors>
+    <owners>Element</owners>
+    <summary>Element Desktop is a Matrix client for desktop platforms with Element Web at its core.</summary>
+    <description>Element Desktop is a Matrix client for desktop platforms with Element Web at its core.
+    </description>
+    <projectUrl>https://element.io/</projectUrl>
+    <packageSourceUrl>https://github.com/apo-mak/chocolatey-packages-/</packageSourceUrl>
+    <tags>7zip zip archiver admin</tags>
+    <licenseUrl>https://github.com/vector-im/element-desktop/blob/develop/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/apo-mak/chocolatey-packages-@master/icons/Element.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->
